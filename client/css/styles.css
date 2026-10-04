@@ -1,8 +1,18 @@
+:root {
+  --color-background: #a9cfea;
+  --color-border: #211e76;
+  --color-text: #202020;
+  --color-text-highlight: #00ffff;
+  --color-text-active: #0011ff;
+  --color-accent: #3157a4;
+  --color-cardback: #FFFFFF;
+}
+
 body {
     font-family: Arial;
-    color: black;
+    color: var(--color-text);
     line-height: 1;
-    background-color: lightblue;
+    background-color: var(--color-background);
 }
 
 .content-width {
@@ -15,19 +25,23 @@ body {
 }
 
 .item-card{
-    border: 6px solid darkblue;
+    border: 6px solid var(--color-border);
     width: 130%;
-    background-color: aliceblue;
+    background-color: var(--color-cardback);
     padding: 10px 10px 10px 10px;
     margin-bottom: 20px;
 }
 
+.nav {
+    color: var(--color-text);
+}
+
 .nav:hover {
-    color:aqua;
+    color: var(--color-text-highlight);
 }
 
 .nav:focus {
-    color:darkblue;
+    color:var(--color-text-active);
 }
 
 img {
