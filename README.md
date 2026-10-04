@@ -6,3 +6,12 @@ TODO
 - GitHub Repository: https://github.com/SethShroom/citc2375-semester-project/
 - Live Site: https://citc2375-sethk-project.onrender.com/
 - Project Topic: Briefly describe what your semester project will be about.
+
+## Planned Data Model
+- Name
+- Category
+- Description
+- Personal rating
+- ESRB Age rating
+- Steam Page (If avaible)
+- Image
