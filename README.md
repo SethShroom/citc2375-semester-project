@@ -15,3 +15,7 @@ TODO
 - ESRB Age rating
 - Steam Page (If avaible)
 - Image
+
+## Project Progress
+- CSS has basic foundation
+- Put the nav and item cards in flexboxes
