@@ -33,6 +33,12 @@ body {
 }
 
 .nav {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5%; 
+    align-items: center;
+    background-color: var(--color-cardback);
+    padding: 5px;
     color: var(--color-text);
 }
 
@@ -47,4 +53,9 @@ body {
 img {
     max-width: 100%;
     height: auto;
+}
+
+.item-list {
+    display: flex;
+    flex-wrap: wrap;
 }
