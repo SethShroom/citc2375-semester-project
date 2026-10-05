@@ -1,0 +1,68 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/styles.css">
+  <title>SILLY GAMES I HAVE</title>
+</head>
+<body>
+  <header class = "content-width">
+    <h1 class="title">SILLY GAMES I HAVE</h1>
+  </header>
+  <nav class="nav">
+    <a href="about.html" class="nav">About</a>
+    <a href="index.html" class="nav">Index</a>
+    <a href="add.html" class="nav">Add</a>
+  </nav>
+
+  <form class = "inputform">
+    <label for="name">Name:</label><br>
+    <input type="text" name = "category" id = "category" required><br>
+    
+    <label for="category">Category:</label><br>
+    <input type="text" name = "category" id = "category" required><br>
+
+    <label for="description">Description:</label><br>
+    <textarea type="text" name = "description" id = "description" placeholder="This game is..." required>
+    </textarea><br>
+
+    <label for="category">Category:</label><br>
+    <input type="text" name = "category" id = "category" required><br>
+
+    <label for="rating">Personal Rating:</label><br>
+    <input type="number" name = "rating" id = "rating" min = '1' max = '10' required><br>
+
+    <div>
+      <label for="category">Age Rating:</label><br>
+
+      <input type="radio" id="Unrated" name="drone" value="Unrated" checked/>
+      <label for="Unrated">Unrated</label><br>
+
+      <input type="radio" id="E" name="drone" value="E"/>
+      <label for="E">E</label><br>
+
+      <input type="radio" id="E10+" name="drone" value="E10+"/>
+      <label for="E10+">E10+</label><br>
+
+      <input type="radio" id="T" name="drone" value="T"  />
+      <label for="T">T</label><br>
+
+      <input type="radio" id="M" name="drone" value="M"  />
+      <label for="M">M</label><br>
+
+      <input type="radio" id="Ao" name="drone" value="Ao"/>
+      <label for="Ao">Ao</label><br>
+    </div>
+
+    <label for="steam">Steam Page:</label><br>
+    <input type="text" name = "steam" id = "steam"><br>
+
+    <label for="image">Image:</label><br>
+    <input type="file" name = "image" id = "image"><br><br>
+
+    <button type="submit" action="#">Submit Form</button>
+
+  </form>
+
+</body>

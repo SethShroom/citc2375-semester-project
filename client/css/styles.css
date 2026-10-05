@@ -19,8 +19,8 @@ body {
     width: 100%;
     margin-left: auto;
     margin-right: auto;
-    padding-left: 10%;
-    padding-right: 10%; 
+    padding-left: 0%;
+    padding-right: 0%; 
     text-align: center;
 }
 
@@ -35,7 +35,7 @@ body {
 .nav {
     display: flex;
     flex-wrap: wrap;
-    gap: 5%; 
+    gap: 10px; 
     align-items: center;
     background-color: var(--color-cardback);
     padding: 5px;
@@ -61,5 +61,40 @@ img {
 }
 
 .title {
+    text-align: center;
+}
+
+.inputform {
+
+    border: 6px solid var(--color-border);
+    width: 190px;
+    background-color: var(--color-cardback);
+    padding: 10px 10px 10px 10px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    line-height: 25px;
+    margin: auto;
+}
+
+.aboutbox {
+
+    border: 6px solid var(--color-border);
+    width: 90%;
+    background-color: var(--color-cardback);
+    padding: 10px 10px 10px 10px;
+    
+    margin: auto;
+    margin-bottom: 10px;
+}
+
+.abouttable {
+
+    border: 6px solid var(--color-border);
+    width: 90%;
+    background-color: var(--color-cardback);
+    padding: 10px 10px 10px 10px;
+    
+    margin: auto;
+    margin-bottom: 10px;
     text-align: center;
 }

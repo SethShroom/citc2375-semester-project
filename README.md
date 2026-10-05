@@ -19,3 +19,5 @@ TODO
 ## Project Progress
 - CSS has basic foundation
 - Put the nav and item cards in flexboxes
+- Added From for submiting
+- Added table with an explenation of the radings system to the about page
