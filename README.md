@@ -21,3 +21,4 @@ TODO
 - Put the nav and item cards in flexboxes
 - Added From for submiting
 - Added table with an explenation of the radings system to the about page
+- Added prototype java code that declares weather a game has been completed, states what the project name is, and gives the average game score. 
